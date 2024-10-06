@@ -29,7 +29,7 @@ function App() {
 
     if (!isNaN(value)) {
       handleNumberInput(value);
-    } else if (value === "CLR") {
+    } else if (value === "C") {
       handleClearInput();
     } else if (value === "=") {
       handleEqualsInput();
@@ -118,7 +118,7 @@ function App() {
           <Key label={2} clickHandler={clickHandler} />
           <Key label={3} clickHandler={clickHandler} />
           <Key label={"-"} clickHandler={clickHandler} />
-          <Key label={"CLR"} clickHandler={clickHandler} />
+          <Key label={"C"} clickHandler={clickHandler} />
           <Key label={0} clickHandler={clickHandler} />
           <Key label={"="} clickHandler={clickHandler} />
           <Key label={"+"} clickHandler={clickHandler} />
